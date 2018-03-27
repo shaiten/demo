@@ -1,0 +1,254 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px 0 0px 0;
+    background: none repeat scroll 0 0 #43729C;
+    text-align: left;
+    width: 100%;
+    display: block;
+}
+.inline{
+	display: inline-block;
+}
+.form-control{
+	padding: 0 12px;
+}
+.r-border{
+	border-right: 1px solid white;
+}
+.right-align{
+	float: right;
+}
+header{
+	height: 1200px;
+}
+	#header_content{
+		width: 69.8%;
+		margin: auto;
+		height: 100px;
+	}
+	#content_wrapper{
+		width: 100%;
+		min-width: 941px;
+		height: 33.9em;
+		background: url(../../rsc/bg/bg_top.jpg) no-repeat scroll center -3px transparent;
+	}
+		#content_wrapper #header_wrapper{
+			width: 100%;
+			height: 1200px;
+			background: url(../../rsc/bg/bg_content_bottom.jpg) no-repeat scroll center bottom transparent;
+		}
+		#content_wrapper .form-control{
+			width: 155px;
+			height: 25px;
+			font-size: 12px;
+			margin-left: 5px;
+		}
+		#header-nav a{
+			color: white;
+			text-decoration: none;
+			margin: 0 4px;
+			padding: 0 2px;
+		}
+		#logo-click{
+			width: 340px;
+			height: 90px;
+			float: left;
+			left: 5px;
+			position: relative;
+			top: 6px;
+			text-indent: -4000px;
+		}
+			#logo-click a{
+				display: block;
+			    height: 90px;
+			}
+		#lang-select{ margin-top:6px; }
+		#header-nav{ margin-top: 6px; }
+		#searchbar{
+			position: relative;
+			left: 155px;
+			top: 35px;
+		}
+		#qnav{
+			position: relative;
+			top: 35px;
+			left: 150px;
+		}
+/*
+section content-header
+*/
+#content-header{
+	width: 69.8%;
+	height: 47px;
+	margin: 0 auto;
+}
+	#content-nav{
+		margin: 0 17px;
+	}
+		#content-nav div:hover{
+			margin-top: 0;
+		    height: 47px;
+		    background: #852222;
+		    padding-top: 10px;
+		}
+		#content-nav a{
+			text-decoration: none;
+		}
+		#content-nav span{
+			line-height: 40px;
+			color: white;
+		}
+	.o{
+		height: 37px;
+		background: #09173e;
+		color: white;
+		width: auto;
+		text-align: center;
+		border-radius: 8px 8px 0 0;
+		margin-top: 10px;
+		opacity: .95;
+	}
+	.hfont{
+		font-size: 17px;
+	    margin: 0 21.4px;
+	    color: white;
+	    display: block;
+	    height: 34px;
+	    font-family: Arial, Helvetica, sans-serif;
+	    width: auto;
+	}
+/*
+maincontent
+*/
+#content{
+	margin: 0 15.7%;
+	height: 920px
+}
+	#left-nav-content{
+		width: 23%;
+	    height: 1000px;
+        /*background: none repeat scroll 0 0 #43729C;*/
+        background: linear-gradient(to top, rgba(238,235,237,0.03), #43729C 50%);
+        border-radius: 5px 0 0 0;
+	}
+		#left-nav-content a{
+			text-decoration: none;
+			border-bottom: 1px solid #6188AB;
+			color: white;
+			padding: 7px 7px 7px 20px;
+			display: block;
+		}
+		#left-nav-content a:hover{
+			background: #79644d;
+		}
+	#right-content{
+	    width: 52.7%;
+	    height: 1000px;
+	    margin: 0;
+	    position: absolute;
+	    background: linear-gradient(to top, rgba(238,235,237,0.03)5%, rgb(238,238,238)40%);
+	}
+		#rcontent-header{
+			border: 1px solid transparent;
+		    height: 80px;
+			padding-left: 25px;
+			background: linear-gradient(to top, #8aa8c1, #eef3f6);
+		}
+			#rcontent-header h1{
+				font-family: georgia, serif;
+				font-size: 32px;
+			}
+		#content-icons{
+			padding-left: 15px;
+		}
+			#content-icons span{
+				padding: 10px 5px;
+			}
+		#content-body{
+			height: 700px;
+		}
+			.box{
+				height: 750px;
+				margin: 0 auto;
+				width: 95%;
+				background-color: white;
+			}
+			#appointment-text{
+				color: white;
+				text-align: center;
+				background-color: #43729C;
+				height: 70px;
+				border: 1px solid #43729C;
+			    margin-top: 5px;
+			}
+			#p1{
+				padding: 30px 20px;
+				border: 1px solid rgb(220,220,220);
+			}
+				#p1 label{
+					font-size: 1.2em;
+				}
+				#p1 .p1-style{
+					margin-top: 20px;
+				    height: 40px;
+				    width: 300px;
+				}
+				#p1-submit{
+					padding: 10px 20px;
+				    margin-top: 20px;
+				    margin-left: 207px;
+				}
+	.copyright{
+		height: 50px;
+	    color: white;
+	    margin-left: 100px;
+	    font-size: 11px;
+	    margin-top: 10px;
+	}
+		.copyright a{
+			text-decoration: none;
+			color: #ffffff;
+			padding: 0 2px;
+		}
+		.clink{
+			color: #ffffff;
+		    text-decoration: none;
+		    padding: 0 2px;
+		    border-right: 1px solid white;
+		}
+footer{
+	background: url(../../rsc/bg/bg_bottom2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+/*
+	appointmentp2
+
+	*/
+
+#schedule{
+	padding: 20px;
+}
+	.date{
+		margin: 10px 10px;
+		border-bottom: 1px solid rgb(220,220,220);
+		padding-bottom: 20px;
+	}
+		.date div{
+			width: 200px;
+			padding-left: 10px;
+		}
+#confirm-submit{
+	margin-left: 314px;
+}
+/*
+	confirm page
+
+	*/
+
+#confirm-box{
+	text-align: center;
+	padding-top: 20px;
+}
